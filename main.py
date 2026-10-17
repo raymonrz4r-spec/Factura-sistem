@@ -1,3 +1,22 @@
+"""
+SISTEMA DE FACTURACION PARA TALLER DE SUBLIMACION (main.py)
+
+EXPLICACION PARA PERSONAS NO TECNICAS:
+Este archivo es el punto de partida de todo el programa de escritorio.
+Cuando el usuario hace doble clic en el icono para abrir la aplicacion,
+este codigo se encarga de:
+
+1. Armar la Ventana: Abre la ventana principal con un diseño oscuro y elegante
+   que no cansa la vista durante horas de trabajo.
+2. Iniciar en Facturacion Directa: Para ahorrar tiempo en el negocio, no pide
+   claves al abrir; te lleva directo a cobrar y crear una nueva factura.
+3. El Menu Lateral (Sidebar): Organiza los accesos a 'Factura', 'Historial',
+   'Dashboard (Metricas)' y 'Ajustes del Taller'.
+4. Guardian de Respaldos (Backup): Revisa en silencio si han pasado mas de
+   7 dias desde la ultima copia de seguridad. Si es asi, crea un respaldo
+   automatico de toda la base de datos para no perder dinero ni registros.
+"""
+
 import sys
 import os
 import customtkinter as ctk

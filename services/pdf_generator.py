@@ -1,3 +1,20 @@
+"""
+MOTOR DE GENERACION DE FACTURAS EN PDF (pdf_generator.py)
+
+EXPLICACION PARA PERSONAS NO TECNICAS:
+Este archivo funciona como la imprenta digital del negocio.
+Cuando el vendedor presiona 'Confirmar Factura', este codigo:
+
+1. Reune los Datos: Toma el nombre del cliente, los articulos comprados
+   (como tazas, camisetas o gorras), las cantidades y los precios.
+2. Agrega la Identidad del Negocio: Coloca el logo del taller, el RNC,
+   la direccion y el numero de telefono en la cabecera.
+3. Dibuja el Documento: Crea un archivo PDF con formato limpio, calcula
+   el total y dibuja las lineas donde deben firmar el vendedor y el cliente.
+4. Entrega Inmediata: Guarda el PDF en la carpeta de Documentos y lo abre
+   en pantalla para que se pueda imprimir de inmediato o enviar al cliente.
+"""
+
 import os
 import subprocess
 import datetime

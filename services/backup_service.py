@@ -1,3 +1,19 @@
+"""
+SISTEMA DE COPIAS DE SEGURIDAD (backup_service.py)
+
+EXPLICACION PARA PERSONAS NO TECNICAS:
+Este archivo es la poliza de seguro del taller.
+En cualquier negocio que use computadoras, existe el riesgo de que la máquina
+falle, se apague de golpe o se dañe. Este codigo previene la perdida de datos:
+
+1. Respaldo Silencioso: Cada 7 dias, genera automaticamente un clon exacto
+   de toda la base de datos (facturas, clientes, productos y dinero).
+2. Respaldo a Peticion: Permite que el dueño presione un boton y guarde una
+   copia en una memoria USB o en la nube cuando quiera.
+3. Restauracion Facil: Si alguna vez ocurre un desastre, permite cargar un
+   respaldo anterior con un solo clic y recuperar todo como estaba.
+"""
+
 import os
 import shutil
 import sqlite3
