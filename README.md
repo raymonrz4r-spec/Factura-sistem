@@ -1,4 +1,4 @@
-# 🧾 Factura-Sistem — Modern POS & Invoicing Desktop System
+# Factura-Sistem — Modern POS & Invoicing Desktop System
 
 **Aplicación de escritorio moderna, ergonómica y minimalista diseñada específicamente para tiendas y talleres de sublimación. Construida con CustomTkinter, base de datos relacional SQLite, motor de reportes ReportLab y sistema de respaldos automáticos semanales.**
 
@@ -13,11 +13,11 @@
 
 1. **Flujo de Trabajo Directo y Ágil**:
    - Inicia inmediatamente en la pantalla de **Nueva Factura** (sin pantallas de login innecesarias).
-   - Botón de gran tamaño **"➕ AGREGAR PRODUCTO A LA FACTURA"** para fácil uso con mouse o pantallas táctiles.
+   - Botón de gran tamaño **"AGREGAR PRODUCTO A LA FACTURA"** para fácil uso con mouse o pantallas táctiles.
    - Selección rápida de mercancía (Camisetas, Tazas 11oz/15oz, Gorras Trucker, Termos, Mousepads, etc.), Talla/Medida y Color.
    - **Precio libre a mano**: Permite ingresar el precio unitario exacto para cada trabajo o pedido especial.
    - Tabla dinámica de productos con eliminación y cálculo de subtotales en tiempo real.
-   - Botón gigante **"✔ CONFIRMAR FACTURA"** que guarda la venta, genera el PDF y lo abre de inmediato listo para imprimir o enviar al cliente.
+   - Botón gigante **"CONFIRMAR FACTURA"** que guarda la venta, genera el PDF y lo abre de inmediato listo para imprimir o enviar al cliente.
 
 2. **Diseño Visual con Carga Cromática Baja**:
    - Paleta inspirada en lineamientos de diseño de **Stitch** (*Atelier Print Engine*).
@@ -29,7 +29,7 @@
 
 4. **Copias de Seguridad (Backup Semanal & Manual)**:
    - **Backup Recurrente**: Evalúa al iniciar si han pasado 7 días o más desde el último respaldo y genera automáticamente una copia segura en `Documentos/Facturas_Sublimacion/Backups/`.
-   - **Visualización en el Sidebar**: La parte inferior del sidebar muestra en todo momento el estado: `🔄 Último backup: YYYY-MM-DD HH:MM:SS`.
+   - **Visualización en el Sidebar**: La parte inferior del sidebar muestra en todo momento el estado: `Último backup: YYYY-MM-DD HH:MM:SS`.
    - Soporte para creación manual inmediata y restauración con un clic.
 
 5. **Reportes y Dashboard de Ventas**:
