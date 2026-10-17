@@ -1,6 +1,11 @@
-# Sistema de Facturación - Taller de Sublimación & Personalizados
+# 🧾 Factura-Sistem — Modern POS & Invoicing Desktop System
 
-Aplicación de escritorio moderna, ergonómica y minimalista diseñada específicamente para tiendas y talleres de sublimación. Construida con **CustomTkinter**, base de datos **SQLite**, motor de reportes **ReportLab** y sistema de **respaldos automáticos semanales**.
+**Aplicación de escritorio moderna, ergonómica y minimalista diseñada específicamente para tiendas y talleres de sublimación. Construida con CustomTkinter, base de datos relacional SQLite, motor de reportes ReportLab y sistema de respaldos automáticos semanales.**
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-ACID%20Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-2B2D42?style=for-the-badge)](https://github.com/TomSchimansky/CustomTkinter)
+[![ReportLab](https://img.shields.io/badge/PDF%20Engine-ReportLab-D14836?style=for-the-badge)](https://www.reportlab.com/)
 
 ---
 
